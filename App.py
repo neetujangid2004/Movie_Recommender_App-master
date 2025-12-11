@@ -114,7 +114,7 @@ def run():
     img1 = Image.open('./meta/logo.jpg')
     img1 = img1.resize((250, 250))
     st.image(img1, use_container_width=False)
-    st.title("🎬 Movie Recommender System")
+    st.title("🎬 Movie Recommendations System")
     st.markdown(
         '''<h4 style='text-align: left; color: #d73b5c;'>* Data is based on "IMDB 5000 Movie Dataset"</h4>''',
         unsafe_allow_html=True)
