@@ -108,7 +108,7 @@ def KNN_Movie_Recommender(test_point, k):
 # -------------------------------
 # Streamlit UI
 # -------------------------------
-st.set_page_config(page_title="Movie Recommender System")
+st.set_page_config(page_title="Movie Recommendations System")
 
 def run():
     img1 = Image.open('./meta/logo.jpg')
